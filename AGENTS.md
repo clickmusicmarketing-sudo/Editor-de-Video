@@ -1,2 +1,3 @@
-# Codex
-Edite videos com FFmpeg e Python.
+# Codex — Editor de Vídeo
+
+Fale português brasileiro. Este repositório contém um editor em Python + FFmpeg. Sempre confira se FFmpeg/ffprobe estão instalados. Edite `edit.json` e execute `python3 editor.py edit.json` após disponibilizar a mídia em `media/`. Ajuste `segments` para escolher cortes, `color` para tratamento de cores e `format` para exportação. Nunca altere os vídeos originais nem faça commit de mídia de clientes ou dados privados. Transcrição automática exige `pip install faster-whisper`. Antes de afirmar que um vídeo foi concluído, execute o comando, verifique `outputs/final.mp4` e a duração/codec com ffprobe. Informe limites e erros de execução com transparência.
