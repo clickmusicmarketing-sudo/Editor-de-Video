@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+media/
+assets/
+outputs/
+*.mp4
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.srt
+.env
