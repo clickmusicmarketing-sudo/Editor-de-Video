@@ -1,0 +1,24 @@
+{
+  "inputs": [
+    "media/video1.mp4"
+  ],
+  "format": "reels",
+  "fit": "fill",
+  "color": "natural",
+  "fade_duration": 0.18,
+  "fps": 30,
+  "crf": 20,
+  "silence": {
+    "enabled": false,
+    "noise_db": -32,
+    "min_duration": 0.55,
+    "keep_padding": 0.13
+  },
+  "music": null,
+  "music_volume": 0.16,
+  "subtitles": null,
+  "language": "pt",
+  "whisper_model": "base",
+  "font_size": 20,
+  "output": "outputs/final.mp4"
+}
